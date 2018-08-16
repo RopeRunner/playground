@@ -4,7 +4,7 @@ require('./SceneComponent.css');
 class SceneComponent extends React.PureComponent {
   render() {
     return (
-      <section>
+      <section className="scene">
         {this.props.children ? (
           this.props.children
         ) : (
