@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { Switch, Route } from 'react-router-dom';
 import SceneComponent from './components/SceneComponent/SceneComponent';
-import RectangleFactory from './components/RectangleFactory/RectangleFactory';
+import DiagramComponent from './components/DiagramComponent/DiagramComponent';
 
 class App extends Component {
   render() {
@@ -12,7 +12,7 @@ class App extends Component {
           path="/"
           render={() => (
             <SceneComponent>
-              <RectangleFactory max={4} num={1000} />
+              <DiagramComponent num={100} />
             </SceneComponent>
           )}
         />

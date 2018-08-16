@@ -1,0 +1,8 @@
+.d-c {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 500px;
+    height: 500px;
+}
